@@ -77,6 +77,12 @@ body {
   margin-bottom: 1rem;
 }
 
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adds space between flex children */
+}
+
 .cta-card {
   background: #ffffff10;
   border: 2px solid #ffffff30;
