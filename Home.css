@@ -30,10 +30,16 @@ body {
 
 .hero {
   position: relative;
-  background: linear-gradient(135deg, #4a00e0, #8e2de2);
+  background: linear-gradient(
+    120deg,
+    #0000ff 0%,
+    #4b0082 50%,
+    #800080 100%
+  );
   text-align: center;
   padding: 4rem 2rem;
   overflow: hidden;
+  color: #fff;
 }
 
 .overlay-circles {
