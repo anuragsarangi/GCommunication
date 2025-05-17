@@ -77,13 +77,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.cta-buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .cta-card {
   background: #ffffff10;
   border: 2px solid #ffffff30;
@@ -95,12 +88,21 @@ body {
   min-width: 150px;
   transition: all 0.3s ease;
   cursor: pointer;
+
+  /*Transparent border glow effect */
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2),
+              0 0 8px rgba(255, 255, 255, 0.2);
 }
 
 .cta-card:hover {
   background: #ffffff20;
   transform: translateY(-5px);
+
+  /*Slightly stronger glow on hover */
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4),
+              0 0 12px rgba(255, 255, 255, 0.4);
 }
+
 
 .cta-card img {
   width: 32px;
